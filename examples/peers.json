@@ -1,0 +1,8 @@
+{
+  "peers": {
+    "laptop": {
+      "address": "100.64.0.2",
+      "key": null
+    }
+  }
+}

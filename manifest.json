@@ -1,0 +1,24 @@
+{
+  "schemaVersion": 1,
+  "id": "io.github.yassinesawahi.gliff-door",
+  "name": "Gliff Door",
+  "version": "1.0.0",
+  "author": "Yassine Sawahi",
+  "homepage": "https://github.com/YassineSawahi/omarchy-gliff-door",
+  "license": "MIT",
+  "description": "Let your other machines remote-desktop into this PC with Gliff, each behind an on/off switch. Their SSH keys can only start gliff-server: no shell, no forwarding, and only from their Tailscale address.",
+  "kinds": [
+    "bar-widget"
+  ],
+  "entryPoints": {
+    "barWidget": "BarWidget.qml"
+  },
+  "barWidget": {
+    "displayName": "Gliff Door",
+    "description": "A switch per machine for who may open this PC with Gliff; the icon lights up while someone is on the screen. Middle-click flips the first machine's switch.",
+    "category": "Network",
+    "allowMultiple": false,
+    "defaultSection": "right",
+    "schema": []
+  }
+}
